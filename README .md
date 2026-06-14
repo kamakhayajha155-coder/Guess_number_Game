@@ -16,3 +16,19 @@ A simple console-based number guessing game written in C. The program randomly s
 ```bash
 gcc number_guessing_game.c -o guess
 ./guess
+
+SAMPLE CODE
+===== NUMBER GUESSING GAME =====
+I'm thinking of a number between 1 and 100.
+Can you guess it?
+
+Enter your guess: 50
+Too high! Try again.
+Enter your guess: 25
+Too low! Try again.
+Enter your guess: 37
+
+Correct! The number was 37.
+You guessed it in 3 attempt(s).
+
+Play again? (1 = Yes, 0 = No): 0
